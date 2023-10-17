@@ -1,4 +1,4 @@
-# {{ New Group Name }} {{ New Group Type }} Charter
+# Server Platform Task Group Charter
 
 ## Guidelines for Drafting a Charter
 
@@ -18,7 +18,7 @@ NOTE: Remove this instructional section upon completion.
 
 ### 1. Introduction:
 
-"The {{ New Group Name }} {{ New Group Type }} aims to [INSERT CLEAR, CONCISE OVERALL MISSION STATEMENT IN 2-3 SENTENCES]."
+"The erver Platform Task Group aims to [INSERT CLEAR, CONCISE OVERALL MISSION STATEMENT IN 2-3 SENTENCES]."
 
 ### 2. Definitions: (Optional)
 
@@ -30,7 +30,7 @@ NOTE: Remove this instructional section upon completion.
 
 ### 4. Objectives:
 
-"The {{ New Group Name }} {{ New Group Type }} is committed to delivering [SPECIFY DELIVERABLE] with the following attributes:
+"The Server Platform Task Group is committed to delivering [SPECIFY DELIVERABLE] with the following attributes:
 
 [ATTRIBUTE 1]
 [ATTRIBUTE 2]
@@ -46,7 +46,7 @@ NOTE: Remove this instructional section upon completion.
 
 ### 6. Collaborations:
 
-"To fulfill its objectives, the {{ New Group Name }} {{ New Group Type }} will engage with:
+"To fulfill its objectives, the Server Platform Task Group will engage with:
 
 [GROUP NAME 1] [GROUP TYPE 1]
 [GROUP NAME 2] [GROUP TYPE 2]

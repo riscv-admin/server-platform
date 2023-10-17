@@ -1,8 +1,8 @@
-= { New Group Name } { New Group Type } Charter
+= Server Platform Task Group Charter
 
 == Introduction
 
-The {New Group Name} {New Group Type} aims to [INSERT CLEAR, CONCISE OVERALL MISSION STATEMENT IN 2-3 SENTENCES].
+The Server Platform Task Group aims to [INSERT CLEAR, CONCISE OVERALL MISSION STATEMENT IN 2-3 SENTENCES].
 
 == Definitions (Optional)
 
@@ -14,7 +14,7 @@ The {New Group Name} {New Group Type} aims to [INSERT CLEAR, CONCISE OVERALL MIS
 
 == Objectives
 
-The {New Group Name} {New Group Type} is committed to delivering [SPECIFY DELIVERABLE] with the following attributes:
+The Server Platform Task Group is committed to delivering [SPECIFY DELIVERABLE] with the following attributes:
 
 * [ATTRIBUTE 1]
 * [ATTRIBUTE 2]
@@ -30,7 +30,7 @@ While not currently in scope, the following items may be considered for future i
 
 == Collaborations
 
-To fulfill its objectives, the {New Group Name} {New Group Type} will engage with:
+To fulfill its objectives, the Server Platform Task Group will engage with:
 
 * [GROUP NAME 1] [GROUP TYPE 1]
 * [GROUP NAME 2] [GROUP TYPE 2]
