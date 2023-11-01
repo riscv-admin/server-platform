@@ -2,38 +2,74 @@
 
 == Introduction
 
-The Server Platform Task Group aims to [INSERT CLEAR, CONCISE OVERALL MISSION STATEMENT IN 2-3 SENTENCES].
+The Server Platform Task Group shall define a specification for a
+standardized set of hardware and software capabilities, that portable
+system software (such as operating systems and hypervisors) can rely
+on being present in a RISC-V server platform.
 
-== Definitions (Optional)
+== Definitions
 
-[TERM 1] refers to [DEFINITION 1]. It is critical because [EXPLAIN SIGNIFICANCE]. [INCLUDE ADDITIONAL TERMS/DEFINITIONS IF REQUIRED].
+A server is a computing system that is designed to manage and distribute
+resources, services and data to other computers or devices on a network.
+It is often referred to as a "server" because it serves or provides
+information or resources upon request. Such computing systems are
+designed to operate continually and have a higher degree of
+requirements on RAS, security, performance, quality of service,
+etc. Examples of servers include web servers, file servers, database
+servers, mail servers, game servers, etc. The focus of this
+specification is to define requirements for general purpose server
+computing systems that may be used for one or more of these purposes.
 
 == Background
 
-[PROVIDE CONTEXT ABOUT THE GROUP'S RELEVANCE AND ANY PERTINENT TECHNOLOGY].
+It is important to standardize the requirements for software (OS
+loader interfaces, hardware description mechanisms), security
+(e.g. trusted boot) and hardware interfaces and capabilities (e.g. 
+harts, timers, interrupt controllers, PCIe RCs, RAS, QoS, etc)
+provided by a server platform, so that operating system and
+hypervisor vendors may support such platforms with a single binary OS
+image distribution.
 
 == Objectives
 
-The Server Platform Task Group is committed to delivering [SPECIFY DELIVERABLE] with the following attributes:
+The produced specification will tie together the many hardware and
+software requirements for a server platform, many of which are defined
+in detail by other RISC-V specs, such as:
+* ISA Profiles
+* Boot and Runtime Services
+* Server SoC
+* Platform security model.
 
-* [ATTRIBUTE 1]
-* [ATTRIBUTE 2]
-* [ADD MORE AS REQUIRED]
+Where applicable, the produced specification shall reference relevant
+industry standards.
+
+It is expected that the server platform specification will add
+additional (refining) requirements in relevant areas. For example,
+the firmware requirements may be more stringent than the ones covered
+in the BRS and include server-specific elements.
+
+The server platform TG shall define a coverage plan and approach to
+determine compliance to the requirements defined by the
+specification. This coverage plan will include and build on the
+coverage plans defined by relevant TGs for the dependent specs
+(e.g. BRS, Server SoC, etc).
+
+The server platform sepcification is expected to be updated
+periodically to stay up to date with the evolution of dependent
+RISC-V and industry specification, and to meet the market requirements
+identified by RISC-V International stakeholders.
 
 == Exclusions (Optional)
 
-While not currently in scope, the following items may be considered for future iterations:
-
-* [FEATURE 1]
-* [FEATURE 2]
-* [ADD MORE AS REQUIRED]
+The specification is not going to cover mechanical, electrical and
+form-factor aspects of a server platform.
 
 == Collaborations
 
 To fulfill its objectives, the Server Platform Task Group will engage with:
 
-* [GROUP NAME 1] [GROUP TYPE 1]
-* [GROUP NAME 2] [GROUP TYPE 2]
-* [ADDITIONAL GROUPS AS NEEDED]
+* Server SoC Task Group.
+* Boot and Runtime Services Task Group.
+* TBD Platform Security Task Group.
 
-NOTE: Ensure to replace all placeholders ({ }) with the actual names or information and remove any optional sections that are not applicable to your charter. Also, remove this note :)
+The TG shall be governed by the TSC directly.
