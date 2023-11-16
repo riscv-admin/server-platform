@@ -25,7 +25,7 @@ computing systems that may be used for one or more of these purposes.
 It is important to standardize the requirements for software (OS
 loader interfaces, hardware description mechanisms), security
 (e.g. trusted boot) and hardware interfaces and capabilities (e.g. 
-harts, timers, interrupt controllers, PCIe RCs, RAS, QoS, etc)
+harts, timers, interrupt controllers, PCIe RCs, RAS, QoS, PMU, etc)
 provided by a server platform, so that operating system and
 hypervisor vendors may support such platforms with a single binary OS
 image distribution.
@@ -38,7 +38,7 @@ in detail by other RISC-V specs, such as:
 * ISA Profiles
 * Boot and Runtime Services
 * Server SoC
-* Platform security model.
+* Platform security Model.
 
 Where applicable, the produced specification shall reference relevant
 industry standards.
@@ -68,8 +68,9 @@ form-factor aspects of a server platform.
 
 To fulfill its objectives, the Server Platform Task Group will engage with:
 
+* Profiles Working Group
 * Server SoC Task Group.
 * Boot and Runtime Services Task Group.
-* TBD Platform Security Task Group.
+* Platform Security Model Task Group.
 
 The TG shall be governed by the TSC directly.
