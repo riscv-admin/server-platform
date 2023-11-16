@@ -40,6 +40,12 @@ in detail by other RISC-V specs, such as:
 * Server SoC
 * Platform security Model.
 
+The specification is meant to be driven by functionality and interoperability
+requirements from operating system vendors and solution providers, and thus
+concerns itself with systems and application software-observable behavior.
+The focus is thus how the system will behave rather than how it will be built.
+This is consistent with other specs such as the Server SoC and BRS specifications.
+
 Where applicable, the produced specification shall reference relevant
 industry standards.
 
