@@ -52,15 +52,16 @@ industry standards.
 It is expected that the server platform specification will add
 additional (refining) requirements in relevant areas. For example,
 the firmware requirements may be more stringent than the ones covered
-in the BRS and include server-specific elements.
+in the BRS and include server-specific elements. The specification will
+be styled in a manner consistent with the related specs (Server SoC).
 
 The server platform TG shall define a coverage plan and approach to
 determine compliance to the requirements defined by the
 specification. This coverage plan will include and build on the
 coverage plans defined by relevant TGs for the dependent specs
-(e.g. BRS, Server SoC, etc).
+(e.g. BRS, Server SoC, etc). This includes a test specification.
 
-The server platform sepcification is expected to be updated
+The server platform specification is expected to be updated
 periodically to stay up to date with the evolution of dependent
 RISC-V and industry specification, and to meet the market requirements
 identified by RISC-V International stakeholders.

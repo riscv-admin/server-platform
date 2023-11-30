@@ -1,0 +1,28 @@
+= Server Platform Certification
+
+== Introduction
+
+The Server Platform specification needs a certification suite that will
+implement the Server Platform Test specification. The certification suite
+should build on certification suites for dependent RVI specs where
+appropriate.
+
+The Server Platform specification primarily builds on 3 specs:
+- Server SoC
+- Booting and Runtime Services
+- Platform Security
+
+The Server Platform Test specification builds on the:
+- Server SoC Test specification
+- BRS Test specification
+- Platform Security Test specification
+
+For the sake of consistentency, ease of implementation and use, the certificiation suites for these specs (and the SP) ought to follow a similar design, implementation and stewardship/maintenance, i.e. be co-designed to work together.
+
+Today, we have the work-in-progress BRS Certification Suite (https://github.com/intel/rv-brs-test-suite), which is based on the Arm BBR-ACS, and the Server SoC suite work appears to be following a similar model (either by being based on the BRS test suite or following the BSA-ACS). The Server Platform
+Certification Suite could thus pull in the dependent test suites as submodules (and add its own tests).
+
+== Hosting
+
+The various certification suites (BRS, Server SoC, SP, ...) ought to be
+hosted on RVI's GitHub presence.
