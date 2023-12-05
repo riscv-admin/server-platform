@@ -69,7 +69,7 @@ identified by RISC-V International stakeholders.
 == Exclusions (Optional)
 
 The specification is not going to cover mechanical, electrical,
-form-factor and performance aspects of a server platform.
+thermal, form-factor and performance aspects of a server platform.
 
 == Collaborations
 
