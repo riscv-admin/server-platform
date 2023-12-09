@@ -35,9 +35,9 @@ The produced specification will tie together the many hardware and
 software requirements for a server platform, many of which are defined
 in detail by other RISC-V specs, such as:
 
-* ISA Profiles
-* Boot and Runtime Services
-* Server SoC
+* ISA Profiles.
+* Boot and Runtime Services.
+* Server SoC.
 * Platform security Model.
 
 The specification is meant to be driven by functionality and interoperability
@@ -59,7 +59,9 @@ The server platform TG shall define a coverage plan and approach to
 determine compliance to the requirements defined by the
 specification. This coverage plan will include and build on the
 coverage plans defined by relevant TGs for the dependent specs
-(e.g. BRS, Server SoC, etc). This includes a test specification.
+(e.g. BRS, Server SoC, etc). This includes a test specification and
+a high-level plan for a certification suite (overall design, hosting,
+funding, relation to test suites for dependent RVI specifications).
 
 The server platform specification is expected to be updated
 periodically to stay up to date with the evolution of dependent
@@ -75,7 +77,7 @@ thermal, form-factor and performance aspects of a server platform.
 
 To fulfill its objectives, the Server Platform Task Group will engage with:
 
-* Profiles Working Groups
+* Profiles Working Groups.
 * Server SoC Task Group.
 * Boot and Runtime Services Task Group.
 * Platform Security Model Task Group.
