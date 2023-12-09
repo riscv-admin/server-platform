@@ -22,19 +22,19 @@ computing systems that may be used for one or more of these purposes.
 
 == Background
 
-It is important to standardize the requirements for software (OS
-loader interfaces, hardware description mechanisms), security
-(e.g. trusted boot) and hardware interfaces and capabilities (e.g. 
-harts, timers, interrupt controllers, PCIe RCs, RAS, QoS, PMU, etc)
-provided by a server platform, so that operating system and
-hypervisor vendors may support such platforms with a single binary OS
-image distribution.
+It is important to standardize the requirements for ISA, hardware
+interfaces and capabilities (e.g.  harts, timers, interrupt controllers,
+PCIe RCs, RAS, QoS, PMU, etc), software (OS loader interfaces, hardware
+description mechanisms) and security (e.g. trusted boot) provided by a
+server platform, so that operating system and hypervisor vendors may
+support such platforms with a single binary OS image distribution.
 
 == Objectives
 
 The produced specification will tie together the many hardware and
 software requirements for a server platform, many of which are defined
 in detail by other RISC-V specs, such as:
+
 * ISA Profiles
 * Boot and Runtime Services
 * Server SoC
@@ -63,8 +63,8 @@ coverage plans defined by relevant TGs for the dependent specs
 
 The server platform specification is expected to be updated
 periodically to stay up to date with the evolution of dependent
-RISC-V and industry specification, and to meet the market requirements
-identified by RISC-V International stakeholders.
+RISC-V and industry specification, and to meet the evolving market
+requirements identified by RISC-V International stakeholders.
 
 == Exclusions (Optional)
 
@@ -75,7 +75,7 @@ thermal, form-factor and performance aspects of a server platform.
 
 To fulfill its objectives, the Server Platform Task Group will engage with:
 
-* Profiles Working Group
+* Profiles Working Groups
 * Server SoC Task Group.
 * Boot and Runtime Services Task Group.
 * Platform Security Model Task Group.
