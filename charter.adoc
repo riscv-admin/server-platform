@@ -29,6 +29,15 @@ description mechanisms) and security (e.g. trusted boot) provided by a
 server platform, so that operating system and hypervisor vendors may
 support such platforms with a single binary OS image distribution.
 
+Server platform has been chosen as the first platform to standardize,
+this being consistent with efforts inside the RISC-V community to
+enable general purpose computing platforms. Other platform
+standardizaation efforts may follow both within RVI and externally.
+Server platform as the first standardized platform is similar to RVA
+ISA Profile being standardized as the first RVI profile. In both of
+these cases the efforts are driven by markets that most value and
+need standardization.
+
 == Objectives
 
 The produced specification will tie together the many hardware and
@@ -39,6 +48,11 @@ in detail by other RISC-V specs, such as:
 * Boot and Runtime Services.
 * Server SoC.
 * Platform security Model.
+
+The intent is that most of the normative content is developed by
+other TGs and that the server platform specification is the document
+that binds everything together and provides a practical architectural
+guide to achieve the stated goals.
 
 The specification is meant to be driven by functionality and interoperability
 requirements from operating system vendors and solution providers, and thus
