@@ -24,7 +24,7 @@ computing systems that may be used for one or more of these purposes.
 
 It is important to standardize the requirements for ISA, hardware
 interfaces and capabilities (e.g.  harts, timers, interrupt controllers,
-PCIe RCs, RAS, QoS, PMU, etc), software (OS loader interfaces, hardware
+PCIe RCs, RAS, QoS, PMU, etc.), software (OS loader interfaces, hardware
 description mechanisms, etc.) and security (e.g. trusted boot) provided by a
 server platform, so that operating system and hypervisor vendors may
 support such platforms with a single binary OS image distribution.
