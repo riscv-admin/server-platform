@@ -25,14 +25,14 @@ computing systems that may be used for one or more of these purposes.
 It is important to standardize the requirements for ISA, hardware
 interfaces and capabilities (e.g.  harts, timers, interrupt controllers,
 PCIe RCs, RAS, QoS, PMU, etc), software (OS loader interfaces, hardware
-description mechanisms) and security (e.g. trusted boot) provided by a
+description mechanisms, etc.) and security (e.g. trusted boot) provided by a
 server platform, so that operating system and hypervisor vendors may
 support such platforms with a single binary OS image distribution.
 
 Server platform has been chosen as the first platform to standardize,
 this being consistent with efforts inside the RISC-V community to
 enable general purpose computing platforms. Other platform
-standardizaation efforts may follow both within RVI and externally.
+standardization efforts may, of course, happen within RVI.
 Server platform as the first standardized platform is similar to RVA
 ISA Profile being standardized as the first RVI profile. In both of
 these cases the efforts are driven by markets that most value and
@@ -44,13 +44,13 @@ The produced specification will tie together the many hardware and
 software requirements for a server platform, many of which are defined
 in detail by other RISC-V specs, such as:
 
-* ISA Profiles.
-* Boot and Runtime Services.
-* Server SoC.
-* Platform security Model.
+* ISA Profiles
+* Boot and Runtime Services
+* Server SoC
+* Platform security Model
 
 The intent is that most of the normative content is developed by
-other TGs and that the server platform specification is the document
+other TGs and that the Server Platform Specification is the document
 that binds everything together and provides a practical architectural
 guide to achieve the stated goals.
 
@@ -63,37 +63,37 @@ This is consistent with other specs such as the Server SoC and BRS specification
 Where applicable, the produced specification shall reference relevant
 industry standards.
 
-It is expected that the server platform specification will add
+It is expected that the Server Platform Specification will add
 additional (refining) requirements in relevant areas. For example,
 the firmware requirements may be more stringent than the ones covered
 in the BRS and include server-specific elements. The specification will
-be styled in a manner consistent with the related specs (Server SoC).
+be styled in a manner consistent with the related specs (e.g. Server SoC).
 
-The server platform TG shall define a coverage plan and approach to
+The Server Platform TG shall define a coverage plan and approach to
 determine compliance to the requirements defined by the
 specification. This coverage plan will include and build on the
 coverage plans defined by relevant TGs for the dependent specs
 (e.g. BRS, Server SoC, etc). This includes a test specification and
 a high-level plan for a certification suite (overall design, hosting,
-funding, relation to test suites for dependent RVI specifications).
+funding, and the relation to test suites for dependent RVI specifications).
 
-The server platform specification is expected to be updated
+The Server Platform Specification is expected to be updated
 periodically to stay up to date with the evolution of dependent
-RISC-V and industry specification, and to meet the evolving market
+RISC-V and industry specifications, and to meet the evolving market
 requirements identified by RISC-V International stakeholders.
 
 == Exclusions (Optional)
 
-The specification is not going to cover mechanical, electrical,
+The specification will not cover mechanical, electrical,
 thermal, form-factor and performance aspects of a server platform.
 
 == Collaborations
 
 To fulfill its objectives, the Server Platform Task Group will engage with:
 
-* Profiles Working Groups.
-* Server SoC Task Group.
-* Boot and Runtime Services Task Group.
-* Platform Security Model Task Group.
+* Profiles Working Groups
+* Boot and Runtime Services Task Group
+* Server SoC Task Group
+* Platform Security Model Task Group
 
 The TG shall be governed by the TSC directly.
