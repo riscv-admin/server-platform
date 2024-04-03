@@ -74,8 +74,7 @@ determine compliance to the requirements defined by the
 specification. This coverage plan will include and build on the
 coverage plans defined by relevant TGs for the dependent specs
 (e.g. BRS, Server SoC, etc). This includes a test specification and
-a high-level plan for a certification suite (overall design, hosting,
-funding, and the relation to test suites for dependent RVI specifications).
+a high-level plan for a certification suite.
 
 The Server Platform Specification is expected to be updated
 periodically to stay up to date with the evolution of dependent
